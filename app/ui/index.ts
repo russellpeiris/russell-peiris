@@ -1,3 +1,4 @@
 export * from "./fonts";
 export * from "./navigation/NavigationItem";
-export * from "./social-links/SocialButton"
+export * from "@/app/ui/social-btn/SocialButton"
+export * from './card/Card'
