@@ -4,9 +4,9 @@ import {usePathname} from "next/navigation";
 import {FC, ReactNode} from "react";
 
 interface NavigationItemProps {
-    icon: ReactNode;
-    title: string;
-    href: string;
+    icon: ReactNode
+    title: string
+    href: string
 }
 
 export const NavigationItem: FC<NavigationItemProps> = ({
@@ -20,10 +20,10 @@ export const NavigationItem: FC<NavigationItemProps> = ({
         <Link href={href}>
     <span
         className={`${isActive ? 'bg-[#202020]' : 'bg-transparent'} 
-              flex gap-4 justify-center text-white text-[10px] 
-              hover:bg-[#4F4F4F] px-4 py-2 w-fit border 
-              border-[#4F4F4F] rounded-2xl 
-              whitespace-nowrap
+              flex gap-4 justify-center text-[10px] 
+              px-4 py-2 whitespace-nowrap
+              w-fit border border-[#4F4F4F] rounded-2xl 
+              hover:bg-[#4F4F4F] 
               transition-all duration-200 ease-in-out`}
     >
     {icon}
