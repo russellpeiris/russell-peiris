@@ -2,22 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground: #171717;
-}
 @keyframes moveBackground {
-  0% {
-    background-position: 0 0;
-  }
+    0% {
+        background-position: 0 0;
+    }
 
-  100% {
-    background-position: 0 100px;
-  }
+    100% {
+        background-position: 0 100px;
+    }
 }
+
 body {
-  color: var(--foreground);
-  background-color: #111010;
-  background-image: radial-gradient(hsla(0, 0%, 85%, 0.2) 1px, transparent 1px);
-  background-size: 25px 25px;
+    color: white;
+    background-color: #111010;
+    background-image: radial-gradient(hsla(0, 0%, 85%, 0.2) 1px, transparent 1px);
+    background-size: 25px 25px;
     animation: moveBackground 10s linear infinite;
 }

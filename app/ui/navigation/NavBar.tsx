@@ -4,9 +4,9 @@ import {UserCircle, SquaresFour, ArticleMedium} from "@phosphor-icons/react/dist
 export const NavBar = () => {
     return (
         <div className="flex justify-center pt-[112px] pb-8 gap-4 md:gap-8">
-                    <NavigationItem icon={<UserCircle size={16}/>} title={'About Me'} href={'/'}/>
-                    <NavigationItem icon={<SquaresFour size={16}/>} title={'Projects'} href={'/projects'}/>
-                    <NavigationItem icon={<ArticleMedium size={16}/>} title={'Articles'} href={'/articles'}/>
+            <NavigationItem icon={<UserCircle size={16}/>} title={'About Me'} href={'/'}/>
+            <NavigationItem icon={<SquaresFour size={16}/>} title={'Projects'} href={'/projects'}/>
+            <NavigationItem icon={<ArticleMedium size={16}/>} title={'Articles'} href={'/articles'}/>
         </div>
     );
 };
