@@ -12,6 +12,10 @@
     }
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     color: white;
     background-color: #111010;
