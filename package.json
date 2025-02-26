@@ -13,7 +13,8 @@
     "next": "15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "russell-peiris": "file:"
+    "russell-peiris": "file:",
+    "tech-stack-icons": "^2.1.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
