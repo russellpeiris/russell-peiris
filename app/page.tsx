@@ -30,10 +30,11 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className={'flex justify-center items-start gap-4 pt-8 flex-col md:flex-row'}>
+            <div className={'flex justify-center items-center gap-4 pt-8 flex-col md:flex-row md:items-start'}>
                <div className={'flex flex-col gap-4'}>
                    <div className={'text-xs'}>Experience</div>
-                   <Card imageUrl={sysco} content={['Intern Site Reliability Engineer', 'Sysco LABS Sri Lanka', 'April 2025 - Present']}/>
+                   <Card imageUrl={sysco} content={['Site Reliability Engineer', 'Sysco LABS Sri Lanka', 'April 2025 - November 2025']}/>
+                   <Card imageUrl={sysco} content={['Intern Site Reliability Engineer', 'Sysco LABS Sri Lanka', 'April 2025 - November 2025']}/>
                    <Card imageUrl={lseg} content={['Intern Software Engineer', 'LSEG Technology', 'July 2024 - January 2025']}/>
                    <Card imageUrl={bl} content={['Intern Software Engineer', 'BetaLaunch', 'April 2023 - April 2024']}/>
                </div>
@@ -45,7 +46,7 @@ export default function Home() {
               </div>
         {/*    last updated */}
             <div className={'text-[10px] text-center text-[#A0A0A0] pt-8'}>
-                Last updated: 2025-10-05
+                Last updated: 2025-11-30
             </div>
         </>
     );
