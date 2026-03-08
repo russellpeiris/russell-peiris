@@ -33,8 +33,8 @@ export default function Home() {
             <div className={'flex justify-center items-center gap-4 pt-8 flex-col md:flex-row md:items-start'}>
                <div className={'flex flex-col gap-4'}>
                    <div className={'text-xs'}>Experience</div>
-                   <Card imageUrl={sysco} content={['Site Reliability Engineer', 'Sysco LABS Sri Lanka', 'April 2025 - November 2025']}/>
-                   <Card imageUrl={sysco} content={['Intern Site Reliability Engineer', 'Sysco LABS Sri Lanka', 'April 2025 - November 2025']}/>
+                   <Card imageUrl={sysco} content={['Site Reliability Engineer', 'Sysco LABS Sri Lanka', 'November 2025 - Present']}/>
+                   <Card imageUrl={sysco} content={['Intern Site Reliability Engineer', 'Sysco LABS Sri Lanka', 'November 2025 - Present']}/>
                    <Card imageUrl={lseg} content={['Intern Software Engineer', 'LSEG Technology', 'July 2024 - January 2025']}/>
                    <Card imageUrl={bl} content={['Intern Software Engineer', 'BetaLaunch', 'April 2023 - April 2024']}/>
                </div>
