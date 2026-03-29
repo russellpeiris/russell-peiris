@@ -1,12 +1,13 @@
-import {Card, SocialButton} from "@/app/ui";
-import {GithubLogo, LinkedinLogo, InstagramLogo} from "@phosphor-icons/react/dist/ssr";
+import { Card, SocialButton } from "@/app/ui";
+import { getBuildDate } from '@/lib/build-date';
+import { GithubLogo, InstagramLogo, LinkedinLogo } from "@phosphor-icons/react/dist/ssr";
 import Image from "next/image";
-import profilePic from '../public/profile.jpg'
-import lseg from '../public/lseg.svg'
-import bl from '../public/bl.png'
-import sliit from '../public/sliit.svg'
-import sysco from '../public/sysco.jpg'
-import msc from '../public/msc.svg'
+import bl from '../public/bl.png';
+import lseg from '../public/lseg.svg';
+import msc from '../public/msc.svg';
+import profilePic from '../public/profile.jpg';
+import sliit from '../public/sliit.svg';
+import sysco from '../public/sysco.jpg';
 
 export default function Home() {
     return (
@@ -46,7 +47,7 @@ export default function Home() {
               </div>
         {/*    last updated */}
             <div className={'text-[10px] text-center text-[#A0A0A0] pt-8'}>
-                Last updated: 2025-11-30
+                Last updated: {getBuildDate()}
             </div>
         </>
     );
